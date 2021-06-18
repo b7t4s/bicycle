@@ -1,0 +1,157 @@
+@charset "utf-8";
+body {
+    height: 100vh;
+    margin: 0px;
+}
+/*---------------------------header---------------------*/
+header {
+    width: 960px;
+    height: 100px;
+    margin: 0 auto;
+    padding: 0 4%;
+    display: flex;
+    justify-content: space-between;
+}
+h1 {
+    width: 120px;
+}
+h1 img {
+    width: 100%;
+}
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding-left: 0;
+    line-height: 60px;
+}
+nav {
+    width: 180px;
+    font-family: serif
+}
+li {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/*--------------------------main---------------------*/
+main {
+    height: 800px;
+}
+div#mainvisual {
+    width: 100%;
+    height: 600px;
+}
+#mainvisual img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+
+.mainvisual {
+    display: flex;
+    justify-content: center;
+    width: 539px;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+}
+
+
+/*------------------------------about-----------------------*/
+section#about {
+    display: flex;
+    flex-flow: column;
+}
+.name {
+    font-family: serif;
+    display: flex;
+    align-items: flex-start;
+}
+
+.about {
+    justify-content: center;
+    display: flex;
+    padding-top: 30px;
+}
+
+#about h2 {
+    font-family: serif;
+    font-size: 35px;
+    border-bottom: solid black 1px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 110px;
+    margin-top: 70px;
+}
+.about img {
+    border-radius: 320px;
+    width: 95px;
+    height: 95px;
+}
+
+
+#content h3 {
+    font-family: serif;
+    padding-left: 35px;
+    font-size: 15px;
+}
+
+#content p {
+    font-family: serif;
+    padding-left: 35px;
+    font-size: 15px;
+}
+/*-----------------------------bicycle------------------------*/
+section#bicycle {
+    display: flex;
+    flex-flow: column;
+}
+
+.bicycle-list h2 {
+    display: block;
+    font-family: serif;
+    font-size: 35px;
+    border-bottom: solid 1px black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 125px;
+    margin-top: 70px;
+}
+
+.bicycle-list {
+    margin-left: auto;
+    margin-right: auto;
+    /* display: inline-block; */
+}
+
+.bicycle-list img {
+    width: 240px;
+    height: auto;
+    padding-top: 40px;
+    margin-right: 15px;
+    margin-bottom: -20px;
+}
+
+li {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: serif;
+    text-align: center;
+}
+
+h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 17px;
+    margin-right: 22px;
+}
+
+.bicycle-list p {
+    font-family: serif;
+    font-size: 15px;
+    padding-right: 20px;
+    margin-top: -20px;
+}
