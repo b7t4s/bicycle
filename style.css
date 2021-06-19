@@ -26,18 +26,25 @@ ul {
     line-height: 60px;
 }
 nav {
-    width: 180px;
+    width: 130px;
     font-family: serif
 }
 li {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 15px;
+    font-family: serif;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: gray;
 }
 
 /*--------------------------main---------------------*/
-main {
-    height: 800px;
-}
+
 div#mainvisual {
     width: 100%;
     height: 600px;
@@ -84,7 +91,7 @@ section#about {
     margin-left: auto;
     margin-right: auto;
     width: 110px;
-    margin-top: 70px;
+    margin-top: 65px;
 }
 .about img {
     border-radius: 320px;
@@ -118,7 +125,7 @@ section#bicycle {
     margin-left: auto;
     margin-right: auto;
     width: 125px;
-    margin-top: 70px;
+    margin-top: 65px;
 }
 
 .bicycle-list {
@@ -135,12 +142,7 @@ section#bicycle {
     margin-bottom: -20px;
 }
 
-li {
-    font-weight: bold;
-    font-size: 20px;
-    font-family: serif;
-    text-align: center;
-}
+
 
 h3 {
     margin-top: 0px;
@@ -154,4 +156,16 @@ h3 {
     font-size: 15px;
     padding-right: 20px;
     margin-top: -20px;
+    font-weight: normal;
+}
+
+/*-----------------------------footer----------------------*/
+
+footer {
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    /* width: 56px; */
+    text-align: center;
+    font-family: serif;
+    font-size: 10px;
 }
